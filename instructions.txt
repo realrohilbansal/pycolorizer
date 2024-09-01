@@ -1,0 +1,13 @@
+Create a Colorizer webapp. This is a professional project and should follow all necessary coding practices, machine learning as well as MLops practices. Use python, mlflow, etc as well as other libraries and tools of your choice which might be required to achieve a fully functioning app. Can deploy it on gradio.
+1. Gather a large and diverse dataset of color images. Convert these images to grayscale to create the paried training dataset for the Pix2Pix model.
+2. Implement a Pix2Pix GAN architecture, utilizing U net generator for colorization and CNN discriminator for realism evaluation. Ensure the model processes images in the LAB color space.
+3. Define the loss functions for training: l1 loss for pixel accuracy and adversarial loss for generating realistic images.
+4. Train the Pix2Pix model using grayscale images as input and color images as targets. Monitor validation performance and apply data augmentation techniques.
+5. Evaluate the trained model on the test dataset using PSNR and SSIM metrics. generate and visually inspect colorized images.
+5. Develop a user interface for application that allows users to upload images. use gradio for this. Integrate the trained model and ensure the output maintains the original image size and quality.
+6. Add post processing features to enhance the quality of colorized images. implement a feedback mechanism for users.
+7. Perform user testing to gather feedback on application. Use this feedback to iterate and improve the model and user interface.
+
+This is a professional project and should follow all necessary coding practices, machine learning as well as MLops practices. Use python, mlflow, etc as well as other libraries and tools of your choice which might be required to achieve a fully functioning app.
+All the functions should be completely implemented and working. 
+The project should be containerized and should be able to run in a docker container. 

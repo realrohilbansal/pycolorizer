@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rohil/Volume-a/zzrepos/pycolorizer/mlruns/834189893699038674/9cd4bf937b8a40ed82aca8357ac031b2/artifacts
+end_time: 1725214842107
+entry_point_name: ''
+experiment_id: '834189893699038674'
+lifecycle_stage: active
+run_id: 9cd4bf937b8a40ed82aca8357ac031b2
+run_name: training_run
+run_uuid: 9cd4bf937b8a40ed82aca8357ac031b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725214817352
+status: 3
+tags: []
+user_id: rohil
